@@ -1,5 +1,16 @@
 # GradientDescentImplementation
-This project is an implementation of basic machine learning algorithms.<br>
+- This project is an implementation of basic machine learning algorithms.
+- The problem statement included a diabetes dataset.
+- The dataset included the following columns:
+    - Pregnancies
+    - Glucose
+    - BloodPressure
+    - SkinThickness
+    - Insulin
+    - BMI
+    - DiabetesPedigreeFunction
+    - Age
+    - Outcome(Whether the patient has diabetes or not)
 **keywords:** Gradient Descent, Polynomial Regression, Classification<br>
 **Libraries Used:** 
 - numpy was used for faster computation and matrix operations
