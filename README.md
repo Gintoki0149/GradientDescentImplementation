@@ -23,7 +23,7 @@
 The gradient is defined as the direction of steepest increase. The algorithm takes advantage of this and goes in the direction opposite to that given by the gradient.
 Thus the weights move closer to a minima.<br>
 **The Sum of Squared Errors was used**<br>
-I performed linear regression to predict the outcome column values. Then I used a discriminant function to label all samples giving value of outcome greater than or equal to 0.5 to class 1 and others to class 0.
+We performed linear regression to predict the outcome column values. Then we used a discriminant function to label all samples giving value of outcome greater than or equal to 0.5 to class 1 and others to class 0.
 <br>
 <br>
 &emsp;&emsp;**Batch-Gradient:** 
@@ -46,5 +46,10 @@ It is also called Lasso Regularization
   In such a case the new error function becomes E(w) + (regularization rate)*||w||<sub>2</sub><br>
   It is also called Ridge Regularization
 
+## Logistic Regression
+**Use:** This algorithm is used when we want to classify our samples into different classes. The Algorithm uses the sigmoid function to calculate the probability of a sample to belong to class 1. The probability of sample belonging to class 0 is accordingly calculated as 1 - sigmoid(x). Based on the prediction of the sigmoid we predict to which class the sample belongs to(sigmoid less than 0.5 implies class 0 else class 1). We achieved an accuracy of 84% using this algorithm.
+
+## Least Squares Classification
+**Use:** For this algorithm we use a one hot encoding to specify which a particular sample belonged to. Thus we get a $nxk$ matrix where n is the number of samples in the dataset and k is the number of classes we want. We achieved an accuracy of 82% using this algorithm.
 
  
