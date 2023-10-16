@@ -37,7 +37,7 @@ I performed linear regression to predict the outcome column values. Then I used 
 
 ## Polynomial Regression
 **Use:** This algorithm is used in case of a polynomial relation between the input variable and the output variable. It uses the same intuition as normal linear regression however the features are powers of the sample variable<br>
-**Regularization:** If we talk about polynomial regression, as the degree of the polynomial increases the flexibility of the hypotheses function increases and the model starts learning the randomness of the data points. This leads to over-fitting which leads to poor performance on unseen data. To overcome this, an additional penalty term is added to the usual error function to keep overfitting in check
+**Regularization:** If we talk about polynomial regression, as the degree of the polynomial increases the flexibility of the hypotheses function increases and the model starts learning the randomness of the data points. This leads to over-fitting which leads to poor performance on unseen data. To overcome this, an additional penalty term is added to the usual error function to keep overfitting in check. A procedure similar to gradient descent was carried out and the achieved accuracy was 75% with a quadratic polynomial.
 <br>
 - **L1 regularization:** The penalty term added is proportional to the sum of the magnitudes of the magnitudes of the weights. The constant of proportionality is called as the regularization rate denoted by the greek alphabet lambda<br>
 In such a case the new error function becomes E(w) + (regularization rate)*||w||<sub>1</sub><br>
