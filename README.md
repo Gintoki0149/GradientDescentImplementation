@@ -11,6 +11,7 @@
     - DiabetesPedigreeFunction
     - Age
     - Outcome(Whether the patient has diabetes or not)
+      
 **keywords:** Gradient Descent, Polynomial Regression, Classification<br>
 **Libraries Used:** 
 - numpy was used for faster computation and matrix operations
@@ -21,7 +22,10 @@
 **Use:** This algorithm very cleverly uses the defenition of the gradient to update weights of a particular regression problem correctly.
 The gradient is defined as the direction of steepest increase. The algorithm takes advantage of this and goes in the direction opposite to that given by the gradient.
 Thus the weights move closer to a minima.<br>
-**The Sum of Squared Errors was used**<br><br>
+**The Sum of Squared Errors was used**<br>
+I performed linear regression to predict the outcome column values. Then I used a discriminant function to label all samples giving value of outcome greater than or equal to 0.5 to class 1 and others to class 0.
+<br>
+<br>
 &emsp;&emsp;**Batch-Gradient:** 
 - The weights are updated after each epoch
 - Computation was done in the form of matrices
