@@ -50,6 +50,6 @@ It is also called Lasso Regularization
 **Use:** This algorithm is used when we want to classify our samples into different classes. The Algorithm uses the sigmoid function to calculate the probability of a sample to belong to class 1. The probability of sample belonging to class 0 is accordingly calculated as 1 - sigmoid(x). Based on the prediction of the sigmoid we predict to which class the sample belongs to(sigmoid less than 0.5 implies class 0 else class 1). We achieved an accuracy of 84% using this algorithm.
 
 ## Least Squares Classification
-**Use:** For this algorithm we use a one hot encoding to specify which a particular sample belonged to. Thus we get a $nxk$ matrix where n is the number of samples in the dataset and k is the number of classes we want. We achieved an accuracy of 82% using this algorithm.
+**Use:** For this algorithm we use a one hot encoding to specify which a particular sample belonged to. Thus we get a $n*k$ matrix where n is the number of samples in the dataset and k is the number of classes we want. We achieved an accuracy of 82% using this algorithm.
 
  
